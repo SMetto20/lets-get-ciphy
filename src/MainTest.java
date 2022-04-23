@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 public class MainTest {
     @Test
-    public void checkLetter_stringInput_ArrayList(){
+    public void encodeCheker_stringInput_ArrayList(){
         Main main = new Main();
         List<String>expectedOutput = new ArrayList<String>();
         expectedOutput.add("andy");
@@ -16,7 +16,7 @@ public class MainTest {
         Main secondary = new Main();
         List<String>expectedOutput =new ArrayList();
         expectedOutput.add("harry");
-        assertEquals(expectedOutput,secondary.decodeWords("hi"));
+        assertEquals(expectedOutput,secondary.decodeWords(""));
 
 }
 
