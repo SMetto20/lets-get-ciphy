@@ -9,8 +9,16 @@ public class MainTest {
         Main main = new Main();
         List<String>expectedOutput = new ArrayList<String>();
         expectedOutput.add("andy");
-        assertEquals(expectedOutput, main.checkLetter("edward"));
+        assertEquals(expectedOutput, main.encodeWords(" "));
     }
+@Test
+    public void decodeChecker_stringOutput_ArrayList(){
+        Main secondary = new Main();
+        List<String>expectedOutput =new ArrayList();
+        expectedOutput.add("harry");
+        assertEquals(expectedOutput,secondary.decodeWords("hi"));
+
+}
 
 
 }

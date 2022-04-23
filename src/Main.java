@@ -3,12 +3,23 @@
 import java.util.ArrayList;
 
 public class Main {
-    public ArrayList<String> checkLetter(String letsCheck){
+    public ArrayList<String> encodeWords(String encodeCheck) {
         ArrayList<String> check = new ArrayList<String>();
+        check.add("andy");
+
+        return check;
+    }
+
+
+
+    public ArrayList<String> decodeWords(String decodeCheck) {
+        ArrayList<String> check2 = new ArrayList<String>();
         return null;
     }
+
     public static void main(String[] args) {
 
     }
-    }
+}
+
 
