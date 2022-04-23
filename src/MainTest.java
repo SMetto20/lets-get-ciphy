@@ -7,9 +7,9 @@ public class MainTest {
     @Test
     public void checkLetter_stringInput_ArrayList(){
         Main main = new Main();
-        List<Character>expectedOutput = new ArrayList<Character>();
-        expectedOutput.add('A');
-        assertEquals(expectedOutput, main.checkLetter('a'));
+        List<String>expectedOutput = new ArrayList<String>();
+        expectedOutput.add("andy");
+        assertEquals(expectedOutput, main.checkLetter("edward"));
     }
 
 
